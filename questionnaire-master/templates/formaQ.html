@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic field 'Social Relations'</title>
+</head>
+<body>
+<h1>отметьте информацию о Вас: </h1>
+<form name="datainformanta" action="" method="get">
+    пол: 
+    <input type="radio" name="gender" value="мужской"> м  
+    <input type="radio" name="gender" value="женский"> ж 
+<br>
+    возраст: 
+    <input type="radio" name="age" value="under18"> меньше 18  
+    <input type="radio" name="age" value="18-35"> 18-35 
+    <input type="radio" name="age" value="36-50"> 36-50
+    <input type="radio" name="age" value="over50"> 50 и больше
+<br>
+	Ваше имя: <input type="text" name="name"/> <br />
+<br>
+<h1>переведите на Ваш родной язык следующие слова: </h1>
+<h3>пожалуйста, записывайте слова с маленькой буквы, без пробелов после последнего слова</h3>
+    the friend: 	<input autocomplete="off" type="text" name="friend"><br>
+    the enemy: 		<input autocomplete="off" type="text" name="enemy"><br>
+    the neighbour:	<input autocomplete="off" type="text" name="neighbour"><br>
+	the stranger: 	<input autocomplete="off" type="text" name="stranger"><br>
+	the guest: 		<input autocomplete="off" type="text" name="guest"><br>
+    the host: 		<input autocomplete="off" type="text" name="host"><br>
+    <input type="submit" value="Отправить">
+</form> 
+    <p><br>
+	<a href="/stats">статистика</a>
+	<br>
+	<a href="/json">json</a>
+	<br>
+	<a href="/search">поиск по введённым данным</a>
+	</p>
+</body>
+</html>
